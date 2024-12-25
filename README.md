@@ -1,12 +1,10 @@
-# Public Dataset
+# Micro Gas Turbine Electrical Energy
 
-This repository is a curated collection of **publicly available datasets** across various domains. Our goal is to centralize access to free and open data for research, analysis, machine learning, and other data-driven applications.
+The Micro Gas Turbine Electrical Energy dataset consists of time-series data collected from a 3-kilowatt commercial micro gas turbine. The dataset includes measurements of electrical power output corresponding to an input control signal over time. It is designed to support regression tasks for predicting electrical energy output based on input control signals. The dataset includes eight time series, representing the turbine's behavior under diverse conditions, with varying durations and input signal patterns.
 
-### Contributing 
-
-We welcome contributions to this repository! If you find a publicly available dataset that's not already included, please consider submitting a pull request. 
-
-### License
-
-Datasets in this repository may have different licenses. Please refer to the individual dataset source for specific license information.
-
+## Key Features
+- **Time-Series Data**: Sequential measurements of electrical power and input voltage over time.
+- **Multivariate Analysis**: Includes input voltage and electrical power output.
+- **Diverse Conditions**: Eight time series representing different experimental scenarios.
+- **Large Dataset**: 71,225 instances for robust analysis.
+- **Tabular Format**: Easy to import and process in various data analysis tools.
